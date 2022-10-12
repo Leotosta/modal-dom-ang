@@ -1,0 +1,63 @@
+:host {
+    position: fixed;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+.container-issuer {
+    background-color: rgba(0,0,0, 0.219);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.issuer-modal {
+    padding: 1.5rem;
+    box-shadow: 0px 4px 10px rgba(174, 174, 174, 0.08);
+    background: lightgrey;
+    height: 50%;
+    margin: 20px;
+    width: 90%;
+}
+
+.modal-container{
+    display: flex;
+    column-gap: 15px;
+    height: 80%;
+    margin: 20px;
+
+}
+.first {
+    background-color: white;
+    width: 3500px;
+    padding: 12px;
+    
+}
+.second {
+    background-color: white;
+    width: 700px;
+
+}
+
+.third {
+    background-color: white;
+    width: 200px;
+
+
+}
+
+.forty {
+    background-color: white;
+    width: 300px;
+
+
+}
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
